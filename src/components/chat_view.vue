@@ -19,8 +19,7 @@
             </n-layout-header>
             <n-layout has-sider position="absolute" style="top: 64px; bottom: 64px">
               <n-layout-sider bordered content-style="padding: 24px;" show-trigger collapse-mode="width"
-                :collapsed-width="64" :width="240" :native-scrollbar="false" :inverted="inverted"
-                style="max-height: 320px">
+                :collapsed-width="64" :width="240" :native-scrollbar="false" :inverted="inverted">
                 <n-menu :inverted="inverted" :collapsed-width="64" :collapsed-icon-size="22" :options="menuOptions"
                   @update:value="handleUpdateValue" />
               </n-layout-sider>
